@@ -44,7 +44,7 @@ namespace DeveloperTest.Migrations
             migrationBuilder.InsertData(
                 table: "Jobs",
                 columns: new[] { "JobId", "CustomerId", "Engineer", "When" },
-                values: new object[] { 1, 0, "Test", new DateTime(2020, 6, 24, 11, 17, 30, 188, DateTimeKind.Local).AddTicks(4789) });
+                values: new object[] { 1, 0, "Test", new DateTime(2020, 6, 24, 12, 16, 19, 627, DateTimeKind.Local).AddTicks(5555) });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

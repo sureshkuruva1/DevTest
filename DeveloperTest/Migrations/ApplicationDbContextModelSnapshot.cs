@@ -71,7 +71,7 @@ namespace DeveloperTest.Migrations
                             JobId = 1,
                             CustomerId = 0,
                             Engineer = "Test",
-                            When = new DateTime(2020, 6, 24, 11, 17, 30, 188, DateTimeKind.Local).AddTicks(4789)
+                            When = new DateTime(2020, 6, 24, 12, 16, 19, 627, DateTimeKind.Local).AddTicks(5555)
                         });
                 });
 #pragma warning restore 612, 618
